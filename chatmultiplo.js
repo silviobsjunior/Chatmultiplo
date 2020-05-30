@@ -1,4 +1,4 @@
-function() { 
+!function(e){function() { 
   alert("A URL desta pagina é: " + window.location.href);
       
   var pathArray = window.location.href;
@@ -17,3 +17,4 @@ function() {
     window.open('https://pt.khanacademy.org/login');
   }
 }
+            };

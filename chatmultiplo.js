@@ -1,7 +1,4 @@
-!function(){"use strict"; 
-  alert("A URL desta pagina é: " + window.location.href);
-      
-  var pathArray = window.location.href;
+!function(){var pathArray = window.location.href;
 
   var pathArray = pathArray.split( '/' );
 

@@ -1,4 +1,4 @@
-!function(e){function() { 
+!function(){"use strict"; 
   alert("A URL desta pagina é: " + window.location.href);
       
   var pathArray = window.location.href;

@@ -1,4 +1,6 @@
 function(){
+  alert("Script externo funcionou!");
+  
   var pathArray = window.location.href;
 
   var pathArray = pathArray.split( '/' );

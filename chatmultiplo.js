@@ -14,4 +14,4 @@ function(){
   } else {
     window.open('https://pt.khanacademy.org/login');
   }
-            };
+            }

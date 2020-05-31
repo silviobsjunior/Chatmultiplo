@@ -1,4 +1,5 @@
-!function(){var pathArray = window.location.href;
+function(){
+  var pathArray = window.location.href;
 
   var pathArray = pathArray.split( '/' );
 
@@ -13,5 +14,4 @@
   } else {
     window.open('https://pt.khanacademy.org/login');
   }
-}
             };

@@ -1,4 +1,4 @@
-(function ($) {
+(function () {
 	'use strict';
   alert("Script externo funcionou!");
   

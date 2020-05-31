@@ -1,4 +1,5 @@
-function(){
+(function ($) {
+	'use strict';
   alert("Script externo funcionou!");
   
   var pathArray = window.location.href;
@@ -15,5 +16,5 @@ function(){
     window.open('https://www.instagram.com/sapatilhasduopassos/?hl=pt-br');
   } else {
     window.open('https://pt.khanacademy.org/login');
-  }
-            }
+	};
+}(window.jQuery));
